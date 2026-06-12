@@ -23,4 +23,4 @@ public class JogoDeXadrez implements Jogo {
 
         System.out.println("Davi Buer");
     }
-}
+} 

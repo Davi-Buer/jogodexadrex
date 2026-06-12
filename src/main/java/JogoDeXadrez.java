@@ -21,6 +21,6 @@ public class JogoDeXadrez implements Jogo {
 
         jogo.iniciar();
 
-        System.out.println("Gustavo Graciano");
+        System.out.println("Davi Buer");
     }
 }

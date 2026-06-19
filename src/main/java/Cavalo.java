@@ -1,6 +1,6 @@
 public class Cavalo extends Peca {
 
-    public Cavalo(char cor) {
+    public Cavalo(string cor) {
         super("H1" + cor);
     }
 }

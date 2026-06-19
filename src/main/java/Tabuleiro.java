@@ -16,27 +16,39 @@ public class Tabuleiro {
 
     public void colocarPecas() {
 
-        new Rei('b');
-        new Rei('p');
+        new Rei("K0b");
+        new Rei("K0p");
 
-        new Rainha('b');
-        new Rainha('p');
+        new Rainha("Q0b");
+        new Rainha("Q0p");
 
-        new Torre('b');
-        new Torre('p');
+        new Torre("T1b");
+        new Torre("T2b");
+        new Torre("T1p");
+        new Torre("T2p");
 
-        new Bispo('b');
-        new Bispo('p');
+        new Bispo("B1b");
+        new Bispo("B2b");
+        new Bispo("B1p");
+        new Bispo("B2p");
 
-        new Cavalo('b');
-        new Cavalo('p');
+        new Cavalo("C1b");
+        new Cavalo("C2b");
+        new Cavalo("C1p");
+        new Cavalo("C2p");
 
-        new Peao('b');
-        new Peao('p');
+        for (int i = 0; i < 8; i++) {
+            new Peao("P" + (i + 1) + "b");
+            new Peao("P" + (i + 1) + "p");
+        }
     }
 
     public void mostrar() {
-        System.out.println("Tabuleiro criado");
+        for (int i = 0; i < 8; i++) {
+            for (int j = 0; j < 8; j++) {
+                System.out.println("|" + casas[i][j] + "|");
+            }
+        }
     }
 
     public boolean acabouOJogo() {

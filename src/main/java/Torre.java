@@ -1,6 +1,6 @@
 public class Torre extends Peca {
 
-    public Torre(string cor) {
+    public Torre(String cor) {
         super("T1" + cor);
     }
 }

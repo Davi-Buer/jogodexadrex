@@ -1,6 +1,6 @@
 public class Peao extends Peca {
 
-    public Peao(string cor) {
+    public Peao(String cor) {
         super("P1" + cor);
     }
 }

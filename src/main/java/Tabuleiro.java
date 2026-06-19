@@ -21,7 +21,7 @@ public class Tabuleiro {
 
         new Rainha("Q0b");
         new Rainha("Q0p");
-
+        
         new Torre("T1b");
         new Torre("T2b");
         new Torre("T1p");

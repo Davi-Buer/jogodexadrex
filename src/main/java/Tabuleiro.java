@@ -46,8 +46,9 @@ public class Tabuleiro {
     public void mostrar() {
         for (int i = 0; i < 8; i++) {
             for (int j = 0; j < 8; j++) {
-                System.out.println("|" + casas[i][j] + "|");
+                System.out.print("|" + casas[i][j] + "|");
             }
+            System.out.println();
         }
     }
 

@@ -55,4 +55,8 @@ public class Tabuleiro {
     public boolean acabouOJogo() {
         return true;
     }
+
+    public Boolean casaLivre(String casa) {
+    // verifica se existe alguma peça nesta casa
+}
 }

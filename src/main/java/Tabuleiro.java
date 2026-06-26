@@ -56,7 +56,6 @@ public class Tabuleiro {
         return true;
     }
 
-    public Boolean casaLivre(String casa) {
-    // verifica se existe alguma peça nesta casa
-}
+  public moverPecas (Peca peca, int linha, int coluna){
+      this.casas[linha] [coluna]=peca.getNome();
 }

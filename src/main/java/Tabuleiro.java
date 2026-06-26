@@ -22,7 +22,7 @@ public class Tabuleiro {
         new Rainha("Q0b");
         new Rainha("Q0p");
         
-        new Torre("T1b");
+        Torre torreT1b = new Torre("T1b");
         new Torre("T2b");
         new Torre("T1p");
         new Torre("T2p");
@@ -41,6 +41,7 @@ public class Tabuleiro {
             new Peao("P" + (i + 1) + "b");
             new Peao("P" + (i + 1) + "p");
         }
+        this.moverPeca(torreT1b,7,0)
     }
 
     public void mostrar() {
@@ -56,6 +57,6 @@ public class Tabuleiro {
         return true;
     }
 
-  public moverPecas (Peca peca, int linha, int coluna){
-      this.casas[linha] [coluna]=peca.getNome();
+  public void moverPeca (Peca peca, int linha, int coluna){
+      this.casas[linha] [coluna]= peca.getNome();
 }
